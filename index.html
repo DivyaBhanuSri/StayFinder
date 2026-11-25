@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StayFinder — Book Unique Stays</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">Stay<span>Finder</span></a>
+
+      <nav class="nav">
+        <a href="#">Stays</a>
+        <a href="#">Experiences</a>
+        <a href="#">Online Experiences</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="ghost-btn">Become a host</button>
+        <button class="icon-btn">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search bar -->
+  <section class="search-section">
+    <div class="container">
+      <form class="search-bar">
+        <div class="search-field">
+          <label>Where</label>
+          <input type="text" placeholder="Search destinations" />
+        </div>
+
+        <div class="search-field">
+          <label>Check in</label>
+          <input type="text" placeholder="Add dates" />
+        </div>
+
+        <div class="search-field">
+          <label>Check out</label>
+          <input type="text" placeholder="Add dates" />
+        </div>
+
+        <div class="search-field">
+          <label>Guests</label>
+          <input type="text" placeholder="Add guests" />
+        </div>
+
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img
+      class="hero-image"
+      src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80"
+      alt="Scenic travel destination"
+    />
+
+    <div class="hero-content">
+      <h1>Find your next stay</h1>
+      <p>Search homes, villas, cabins, and unique places around the world.</p>
+      <button class="primary-btn">Explore stays</button>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="container">
+      <h2>Explore nearby</h2>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+            alt="Beach stay"
+          />
+          <h3>Beachfront</h3>
+          <p>2 hour drive</p>
+        </div>
+
+        <div class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=800&q=80"
+            alt="Mountain cabin"
+          />
+          <h3>Mountain cabins</h3>
+          <p>3 hour drive</p>
+        </div>
+
+        <div class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=800&q=80"
+            alt="City stay"
+          />
+          <h3>City stays</h3>
+          <p>Popular this weekend</p>
+        </div>
+
+        <div class="category-card">
+          <img
+            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
+            alt="Countryside stay"
+          />
+          <h3>Countryside</h3>
+          <p>Great for families</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured stays -->
+  <section class="stays">
+    <div class="container">
+      <div class="section-head">
+        <h2>Featured stays</h2>
+        <a href="#">Show all</a>
+      </div>
+
+      <div class="stay-grid">
+        <article class="stay-card">
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+            alt="Modern villa"
+          />
+          <div class="stay-info">
+            <p class="location">Goa, India</p>
+            <h3>Modern villa near the beach</h3>
+            <p class="details">6 guests · 3 bedrooms · 2 baths</p>
+            <p class="price"><strong>₹8,500</strong> night</p>
+          </div>
+        </article>
+
+        <article class="stay-card">
+          <img
+            src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
+            alt="Wooden cabin"
+          />
+          <div class="stay-info">
+            <p class="location">Manali, India</p>
+            <h3>Cozy wooden mountain cabin</h3>
+            <p class="details">4 guests · 2 bedrooms · 1 bath</p>
+            <p class="price"><strong>₹5,200</strong> night</p>
+          </div>
+        </article>
+
+        <article class="stay-card">
+          <img
+            src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80"
+            alt="City apartment"
+          />
+          <div class="stay-info">
+            <p class="location">Jaipur, India</p>
+            <h3>Heritage-style city apartment</h3>
+            <p class="details">3 guests · 1 bedroom · 1 bath</p>
+            <p class="price"><strong>₹3,800</strong> night</p>
+          </div>
+        </article>
+
+        <article class="stay-card">
+          <img
+            src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80"
+            alt="Lakeside retreat"
+          />
+          <div class="stay-info">
+            <p class="location">Kerala, India</p>
+            <h3>Lakeside retreat with view</h3>
+            <p class="details">8 guests · 4 bedrooms · 3 baths</p>
+            <p class="price"><strong>₹11,000</strong> night</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Host section -->
+  <section class="host">
+    <div class="container host-inner">
+      <div>
+        <h2>Share your place</h2>
+        <p>
+          Earn income by hosting guests and sharing your space with travelers
+          from around the world.
+        </p>
+        <button class="primary-btn">Try hosting</button>
+      </div>
+
+      <img
+        class="host-image"
+        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80"
+        alt="Host welcoming guests"
+      />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>Support</h4>
+        <a href="#">Help Center</a>
+        <a href="#">Cancellation options</a>
+        <a href="#">Safety information</a>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+
+      <div>
+        <h4>Discover</h4>
+        <a href="#">Stays</a>
+        <a href="#">Experiences</a>
+        <a href="#">Travel guides</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 StayFinder. A demo travel-stay website.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
